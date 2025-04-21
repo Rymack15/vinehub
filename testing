@@ -44,3 +44,19 @@ local Window = Rayfield:CreateWindow({
     -- The function that takes place when the button is pressed
     end,
  })
+
+ local Button = MainTab:CreateButton({
+   Name = "Rivels Hacks (Soluna)",
+   Callback = function()
+      loadstring(game:HttpGet("https://soluna-script.vercel.app/main.lua",true))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Unversial Aimbot",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
