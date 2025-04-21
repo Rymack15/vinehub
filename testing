@@ -56,7 +56,7 @@ local Window = Rayfield:CreateWindow({
 local Button = MainTab:CreateButton({
    Name = "Unversial Aimbot",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub-V2/main/src/Main.lua"))()"))()
    -- The function that takes place when the button is pressed
    end,
 })
